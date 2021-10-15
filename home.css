@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+}
+
+.headertop img{
+    width: 200px;
+}
+
+.headertop{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.headerbot{
+    color: black;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    background-color: rgb(85, 84, 84);
+}
+
+.content1-intro{
+    font-size: 24px;
+    padding: 25px;
+    text-align: center;
+}
+
+#season8{
+    background-image: url("assets/images/content1.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+}
+
+#season8:hover {
+    background-image: url("assets/images/hover1.jpg");
+}
+
+#season7{
+    background-image: url("assets/images/content2.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 350px;
+}
+
+#season7:hover {
+    background-image: url("assets/images/hover2.jpg");
+}
+
+.content2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.content2 p{
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.fullText{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 35px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+.footer-right img{
+    width: 40px;
+    height: 40px;
+}
+
+.ciptadiIG, .ciptadiFB{
+    padding: 5px;
+}
+
+.ciptadiAndro{
+    padding: 5px;
+}
+
+.footer-right .unrealCiptadi{
+    margin-bottom: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.footer-left{
+    margin-top: 20px;
+}
